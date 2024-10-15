@@ -1,0 +1,169 @@
+<!--HTML CODE-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Shaik Shareequah Saman</h1>
+            <h4>Portfolio</h4>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header>
+        <div class="container">
+          
+            <img src="C:\Users\younu\Downloads\images\saman.jpg" alt="photo" class="profile-photo">
+    
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm student of Computer Science and Engineering with a passion of learning about new things and improving my knowledge.ans a enthusiastic learner.</p>
+        </div>
+    </section>
+   
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>EDUCATION</h2>
+            <div class="education-grid">
+                <div class="education">
+                    <h3>BTECH</h3>
+                    <p>I have completed my btech in ravindra College og Engineering For Women,Kurnool,AP.</p>
+                    <h5>2021-2025</h5>
+                </div>
+                <div class="education">
+                    <h3>INTERMEDIATE</h3>
+                    <p>I have completedd my intermediate in Vasavi junior College For Girls,Kurnool,AP.</p>
+                    <h5>2019-2021</h5>
+                </div>
+                <div class="education">
+                    <h3>SCHOOLING</h3>
+                    <p>I have completed my schooling in Everest English School kurnool,AP.</p>
+                    <h5>2018-2019</h5>
+                </div>
+            </div>
+        </div>
+        <section id="certifications" class="section">
+
+            <div class="container">
+                <h1>CERTIFICATES</h1>
+                <p>certified by nptel on Introduction To Environmrntal Economics.</p>
+                <p>certified on Soft Skills by edx.</p>
+                <p>CERTIFIED BY TALENTNEXT WIPRO ON FULLSTACKDEVELOPMENT</p>
+                </div> 
+        </section>
+        <section id="TEHNICAL SKILLS" class="section>"
+            <dIv class="container">
+                 <h1>TECHNICAL SKILLS</h1>
+                 <p>Programming languages:C,JAVA,PYTHON</p>
+                 <p>Database:DBMS,SQL</p>
+                 <p>Tools:VSCODE,ECPLISE,LINUX</p>
+            </div>
+        </section>
+        <section id="internship" class="section">
+            <div class="cointainer">
+                <h1>INTERNSHIP</h1>
+                <p>COMPELTED 2 MONTHS COUSRE AND INTERNSHIP ON CYBERSECURITY AND ETHICAL HACKING BY COINCENT TECHNOLOGIES.</p>
+                <p>COMPELTED VIRTUAL INTERNSHIP ON CLOUD AND CYBERSECURITY BY EDUSKILLS.</p>
+            </div>
+        </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>PHONO:9866004451</p>
+            <p>Email me at <a href="mailto:shareequahsaman95@gmail.com">shareequahsaman95@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2021 My Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+<!--CSS CODE-->
+*. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: #ebdddd;
+    text-decoration: none;
+  }
+  
+  h1 {
+    margin-top: 1em;
+    font-size: 2.5em;
+  }
+  
+  section {
+    padding: 2em 0;
+    text-align: center;
+  }
+  
+  #about {
+    background-color: #e2e2e2;
+  }
+  
+  #projects {
+    background-color: #363131;
+  }
+  
+  .project {
+    margin: 1em 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #971919;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
